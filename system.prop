@@ -3,8 +3,9 @@ audio.deep_buffer.media=true
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 
-# Enable ADB authentication
-ro.adb.secure=1
+# workaround for broken sdcardfs
+persist.sys.sdcardfs=force_off
+
 
 # Perf
 ro.vendor.qti.sys.fw.bg_apps_limit=60
