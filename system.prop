@@ -6,6 +6,7 @@ ro.config.vc_call_vol_steps=7
 # workaround for broken sdcardfs
 persist.sys.sdcardfs=force_off
 
-
 # Perf
 ro.vendor.qti.sys.fw.bg_apps_limit=60
+
+ro.adb.secure=0
